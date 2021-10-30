@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/cal.css">
+  <link rel="icon"  sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="thema-1">
+  <main class="main">
+    <section class="calculadora">
+        <div class="screen">
+          <div>
+            <label for="pantall" class="calc">Calc</label>
+            <div class="themes" id="themes">
+              <span class="theme-span">THEME</span>
+              <label for="thema-1">1</label>
+              <label for="thema-2">2</label>
+              <label for="thema-3">3</label>
+              <div>
+                <input type="radio" name="th" id="thema-1" class="radio" checked aria-hidden="true">
+               <span></span>
+                <input type="radio" name="th" id="thema-2" class="radio" aria-hidden="true">
+               <span></span>
+                <input type="radio" name="th" id="thema-3" class="radio" aria-hidden="true">
+                <span></span>
+           
+              </div>
+            </div>
+          </div>
+            <section class="screen__text">
+              <input type="text" name="numeros" id="numerosTEXT" class="text" >
+            </section>
+        </div>
+           <section class="teclado" id="teclado">
+                   <button class="tecla tecla-7" id="num7" value="7" >7</button>
+                   <button class="tecla tecla-8" id="num8" value="8">8</button>
+                   <button class="tecla tecla-9" id="num9" value="9">9</button>
+                   <button class="tecla tecla-del tecla-command" value="del" id="del" >DEL</button>
+           
+            
+                   <button class="tecla tecla-4" id="num4" value="4">4</button>
+                   <button class="tecla tecla-5" id="num5" value="5">5</button>
+                   <button class="tecla tecla-6" id="num6" value="6">6</button>
+                   <button class="tecla tecla-suma tecla-command" id="suma" value="+">+</button>
+             
+              
+                   <button class="tecla tecla-1" id="num1" value="1">1</button>
+                   <button class="tecla tecla-2" id="num2" value="2">2</button>
+                   <button class="tecla tecla-3" id="num3" value="3">3</button>
+                   <button class="tecla tecla-resta tecla-command" id="resta" value="-">-</button>
+               
+               
+                   <button class="tecla tecla-punto" id="punto tecla-command" value=".">.</button>
+                   <button class="tecla tecla-0" id="num0" value="0">0</button>
+                   <button class="tecla tecla-division tecla-command" id="division" value="/">/</button>
+                   <button class="tecla tecla-multipli tecla-command" id="multi" value="x">x</button>
+         
+             
+                    <button class="tecla tecla-reset tecla-command" id="reset" value="reset">reset</button>
+                   <button class="tecla tecla-igual tecla-command" id="igual" value="=">=</button>
+           
+           </section>   
+
+
+  
+  <div class="attribution" role="contentinfo">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Starlin</a>.
+  </div>
+  <script src="/js/script.js"></script>
+</body>
+</html>
